@@ -70,6 +70,8 @@ Where:
 
 ---
 
+## Live[https://purrii0.github.io/lorenzeqn/]
+
 ## File Descriptions
 
 ### `index.html`
@@ -99,7 +101,3 @@ Defines the `Attractor` class, which handles the Lorenz equations and rendering.
 - [p5.js](https://p5js.org/) (included via CDN in `index.html`)
 
 ---
-
-## License
-
-This project is open-source and available under the MIT License.
