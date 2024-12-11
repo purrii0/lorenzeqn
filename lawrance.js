@@ -4,7 +4,16 @@ let beta = 8 / 3;
 let dt = 0.01;
 
 let attractors = [];
-let num = 20;
+let number = parseInt(prompt("Enter Number of Elements: "));
+while (isNaN(number) || number <= 0) {
+  if (isNaN(number)) {
+    number = parseInt(prompt("Enter A valid Number: "));
+  } else if (number <= 0) {
+    number = parseInt(prompt("Enter A valid positive Integer: "));
+  }
+}
+
+let num = number;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight, WEBGL);
